@@ -11,8 +11,8 @@ class PerusahaanController extends Controller
         return view('index');
     }
 
-    public function blog()
+    public function sayur()
     {
-        return view('blog');
+        return view('sayur');
     }
 }

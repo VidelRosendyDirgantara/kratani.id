@@ -17,4 +17,4 @@ Route::get('/', function () {
     return view('index');
 });
 Route::get('/index', [PerusahaanController::class, 'index'])->name('index');
-Route::get('/blog', [PerusahaanController::class, 'blog'])->name('blog');
+Route::get('/sayur', [PerusahaanController::class, 'sayur'])->name('sayur');
