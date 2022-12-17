@@ -129,6 +129,39 @@ h6 {
   max-height: 40px;
 }
 
+#headersayur {
+  background: url("../img/hero-bg.jpg") top center no-repeat;
+  background: transparent;
+  transition: all 0.5s;
+  z-index: 997;
+  padding: 20px 0;
+}
+
+#headersayur.header-scrolled {
+  padding: 12px 0;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+#headersayur .logo {
+  font-size: 30px;
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+
+#headersayur .logo a {
+  color: #000;
+}
+
+#headersayur .logo a span {
+  color: #e03a3c;
+}
+
+#headersayur .logo img {
+  max-height: 40px;
+}
+
 /*--------------------------------------------------------------
 # Get Startet Button
 --------------------------------------------------------------*/
@@ -189,6 +222,10 @@ h6 {
 /**
 * Desktop Navigation 
 */
+.navbarsayur{
+  color: #000;
+}
+
 .navbar {
   padding: 0;
 }

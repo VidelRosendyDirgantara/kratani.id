@@ -60,10 +60,10 @@
             <nav id="navbar" class="navbar order-last order-lg-0">
                 <ul>
                     <li><a class="nav-link scrollto active" href={{ route('index') }}>Home</a></li>
-                    <li><a class="nav-link scrollto" href="#">Sayur</a></li>
-                    <li><a class="nav-link scrollto" href="#">Kelompok Tani</a></li>
+                    <li><a class="nav-link scrollto" href="/sayur">Sayur</a></li>
+                    <li><a class="nav-link scrollto" href="/kelompoktani">Kelompok Tani</a></li>
                     <!-- <li><a class="nav-link scrollto " href="#">Daging</a></li> -->
-                    <li><a class="nav-link scrollto" href="#">Krahat</a></li>
+                    <li><a class="nav-link scrollto" href="/krahat">Krahat</a></li>
                     <!-- <li><a class="nav-link scrollto" href="#">Olah Tani</a></li> -->
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
@@ -74,25 +74,169 @@
     <main id="main">
 
         <!-- ======= About Section ======= -->
-        <section align="center" id="about" class="about section-bg">
-            <div class="row mb-5">
-                <div class="col-sm-6 col-lg-4 mb-4" data-aos="fade-up">
-                    <div class="block-4 text-center border">
-                        <a href="">
-                            <img src="assets/img/sayur/brokoli.png" alt="Image placeholder" class="img-fluid"
-                                width="100%" style="height:200px">
-                        </a>
-                        <div class="block-4-text p-4">
-                            <h3><a href=""></a>Brokoli</h3>
-                            <p class="mb-0">Rp. 16,000 /250g</p>
-                            <a href="" class="btn btn-primary mt-2">Detail</a>
+        <section style="background-color: #4c4936;">
+            <div class="text-center container py-5">
+                <h4 class="mt-4 mb-5"><strong>Bestsellers</strong></h4>
+
+                <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="bg-image hover-zoom ripple" data-mdb-ripple-color="light">
+                                <img src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fpngimg.com%2Fuploads%2Ftomato%2Ftomato_PNG12585.png&f=1&nofb=1&ipt=e38c086058be8d3c465a689c8babdac947b60af5726dc8859fb877566ccdc193&ipo=images"
+                                    class="w-100" />
+                                <a href="#!">
+                                    
+                                </a>
+                            </div>
+                            <div class="card-body">
+                                <a href="" class="text-reset">
+                                    <h5 class="card-title mb-3">Tomat</h5>
+                                </a>
+                                <h6 class="mb-3">
+                                    <strong class="ms-2 text">Rp. 3,750/250gr</strong>
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="bg-image hover-zoom ripple" data-mdb-ripple-color="light">
+                                <img src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2F3.bp.blogspot.com%2F-35yzLwNWAvg%2FUa-NpH06R6I%2FAAAAAAAAF4E%2FAxo7F_5_NLI%2Fs1600%2Fjagung...png&f=1&nofb=1&ipt=a0e9148c78463db237e37b59716a5629f43d01154be5ec8570167c8a00dc6e6e&ipo=images"
+                                    class="w-100" />
+                                <a href="#!">
+                                    
+                                </a>
+                            </div>
+                            <div class="card-body">
+                                <a href="" class="text-reset">
+                                    <h5 class="card-title mb-3">Jagung</h5>
+                                </a>
+                                <h6 class="mb-3">
+                                    <strong class="ms-2 text">Rp. 6,000/2pcs</strong>
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="bg-image hover-zoom ripple" data-mdb-ripple-color="light">
+                                <img src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.pngall.com%2Fwp-content%2Fuploads%2F2016%2F05%2FCabbage.png&f=1&nofb=1&ipt=aa4ce0b4aee7d3ccce3b642bed72b42d3332d6af3016ce7a916a9f98f39fe86a&ipo=images"
+                                    class="w-100" />
+                                <a href="#!">
+                                    
+                                </a>
+                            </div>
+                            <div class="card-body">
+                                <a href="" class="text-reset">
+                                    <h5 class="card-title mb-3">Sayur Kubis</h5>
+                                </a>
+                                <h6 class="mb-3">
+                                    <strong class="ms-2 text">Rp. 3,000/250gr</strong>
+                                </h6>
+                            </div>
                         </div>
                     </div>
                 </div>
 
+                <div class="row">
+                    <!-- <div class="col-lg-4 col-md-12 mb-4">
+                        <div class="card">
+                            <div class="bg-image hover-zoom ripple" data-mdb-ripple-color="light">
+                                <img src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/E-commerce/Products/img%20(23).webp"
+                                    class="w-100" />
+                                <a href="#!">
+                                    <div class="mask">
+                                        <div class="d-flex justify-content-start align-items-end h-100">
+                                            <h5>
+                                                <span class="badge bg-success ms-2">Eco</span><span
+                                                    class="badge bg-danger ms-2">-10%</span>
+                                            </h5>
+                                        </div>
+                                    </div>
+                                    <div class="hover-overlay">
+                                        <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="card-body">
+                                <a href="" class="text-reset">
+                                    <h5 class="card-title mb-3">Product name</h5>
+                                </a>
+                                <a href="" class="text-reset">
+                                    <p>Category</p>
+                                </a>
+                                <h6 class="mb-3">
+                                    <s>$61.99</s><strong class="ms-2 text-danger">$50.99</strong>
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
 
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="bg-image hover-zoom ripple ripple-surface ripple-surface-light"
+                                data-mdb-ripple-color="light">
+                                <img src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/E-commerce/Products/img%20(17).webp"
+                                    class="w-100" />
+                                <a href="#!">
+                                    <div class="mask">
+                                        <div class="d-flex justify-content-start align-items-end h-100"></div>
+                                    </div>
+                                    <div class="hover-overlay">
+                                        <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="card-body">
+                                <a href="" class="text-reset">
+                                    <h5 class="card-title mb-3">Product name</h5>
+                                </a>
+                                <a href="" class="text-reset">
+                                    <p>Category</p>
+                                </a>
+                                <h6 class="mb-3">$61.99</h6>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="bg-image hover-zoom ripple" data-mdb-ripple-color="light">
+                                <img src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/E-commerce/Products/img%20(30).webp"
+                                    class="w-100" />
+                                <a href="#!">
+                                    <div class="mask">
+                                        <div class="d-flex justify-content-start align-items-end h-100">
+                                            <h5>
+                                                <span class="badge bg-primary ms-2">New</span><span
+                                                    class="badge bg-success ms-2">Eco</span><span
+                                                    class="badge bg-danger ms-2">-10%</span>
+                                            </h5>
+                                        </div>
+                                    </div>
+                                    <div class="hover-overlay">
+                                        <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="card-body">
+                                <a href="" class="text-reset">
+                                    <h5 class="card-title mb-3">Product name</h5>
+                                </a>
+                                <a href="" class="text-reset">
+                                    <p>Category</p>
+                                </a>
+                                <h6 class="mb-3">
+                                    <s>$61.99</s><strong class="ms-2 text-danger">$50.99</strong>
+                                </h6>
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
             </div>
-        </section><!-- End About Section -->
+        </section>
 
     </main><!-- End #main -->
 

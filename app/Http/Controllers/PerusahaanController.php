@@ -15,4 +15,9 @@ class PerusahaanController extends Controller
     {
         return view('sayur');
     }
+
+    public function kelompoktani()
+    {
+        return view('kelompoktani');
+    }
 }

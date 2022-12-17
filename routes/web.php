@@ -18,3 +18,5 @@ Route::get('/', function () {
 });
 Route::get('/index', [PerusahaanController::class, 'index'])->name('index');
 Route::get('/sayur', [PerusahaanController::class, 'sayur'])->name('sayur');
+Route::get('/kelompoktani', [PerusahaanController::class, 'kelompoktani'])->name('kelompoktani');
+

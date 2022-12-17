@@ -61,9 +61,9 @@
                 <ul>
                     <li><a class="nav-link scrollto active" href={{ route('index') }}>Home</a></li>
                     <li><a class="nav-link scrollto" href="/sayur">Sayur</a></li>
-                    <li><a class="nav-link scrollto" href="#">Kelompok Tani</a></li>
+                    <li><a class="nav-link scrollto" href="/kelompoktani">Kelompok Tani</a></li>
                     <!-- <li><a class="nav-link scrollto " href="#">Daging</a></li> -->
-                    <li><a class="nav-link scrollto" href="#">Krahat</a></li>
+                    <li><a class="nav-link scrollto" href="/krahat">Krahat</a></li>
                     <!-- <li><a class="nav-link scrollto" href="#">Olah Tani</a></li> -->
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
@@ -102,11 +102,10 @@
                                 kerja, tanpa mengharuskan anda pergi secara langsung ke pasar/supermarket.
                             </h5></p>
                         </div>
-                    <!-- </div> -->
-
-                    <div class="container">
+                    </div>
+                    <div align ="center" class="container">
                         <div class="row">
-                            <div class="col-md-12">
+                            <div class="col-md-7">
                                 <div class="slider ml-lg-5 ml-md-5 mt-5 py-lg-5">
                                     <div class="row">
                                         <div class="col-md-4">
